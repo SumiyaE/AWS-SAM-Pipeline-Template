@@ -11,13 +11,13 @@ on:
 
 env:
   SAM_TEMPLATE: template.yaml
-  TESTING_STACK_NAME: testEnvironment
+  TESTING_STACK_NAME: sam-app
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::712412581856:role/aws-sam-cli-managed-Staging-PipelineExecutionRole-1GSMIE2VNWAED
   TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::712412581856:role/aws-sam-cli-managed-Stagi-CloudFormationExecutionR-V54PC5FSAX6R
   TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-staging-pipel-artifactsbucket-80k1mszk1ks4
   TESTING_IMAGE_REPOSITORY: 712412581856.dkr.ecr.ap-northeast-1.amazonaws.com/aws-sam-cli-managed-staging-pipeline-resources-imagerepository-dugdzekqebdb
   TESTING_REGION: ap-northeast-1
-  PROD_STACK_NAME: 2
+  PROD_STACK_NAME: sam-app
   PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::712412581856:role/aws-sam-cli-managed-Product-PipelineExecutionRole-18U7PA65AOOET
   PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::712412581856:role/aws-sam-cli-managed-Prod-CloudFormationExecutionR-I6VJLD21IEKJ
   PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-production-p-artifactsbucket-1wsxj005vrnn2
